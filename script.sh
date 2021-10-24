@@ -3,15 +3,15 @@ mvn clean install
 mvn compile
 
 mvn exec:java -Dexec.mainClass=project.Runner
-sudo trec_eval .src/main/resources/cranlist/QRelsCorrectedforTRECeval output/results_Classic_Analyzer_BM25.txt
-sudo trec_eval .src/main/resources/cranlist/QRelsCorrectedforTRECeval output/results_Classic_Analyzer_BooleanSimilarity.txt
-sudo trec_eval .src/main/resources/cranlist/QRelsCorrectedforTRECeval output/results_Classic_Analyzer_ClassicSimilarity.txt
-sudo trec_eval .src/main/resources/cranlist/QRelsCorrectedforTRECeval output/results_Classic_Analyzer_LMDirichletSimilarity.txt
-sudo trec_eval .src/main/resources/cranlist/QRelsCorrectedforTRECeval output/results_English_Analyzer_BM25.txt
-sudo trec_eval .src/main/resources/cranlist/QRelsCorrectedforTRECeval output/results_English_Analyzer_BooleanSimilarity.txt
-sudo trec_eval .src/main/resources/cranlist/QRelsCorrectedforTRECeval output/results_English_Analyzer_ClassicSimilarity.txt
-sudo trec_eval .src/main/resources/cranlist/QRelsCorrectedforTRECeval output/results_English_Analyzer_LMDirichletSimilarity.txt
-sudo trec_eval .src/main/resources/cranlist/QRelsCorrectedforTRECeval output/results_Standard_Analyzer_BM25.txt
-sudo trec_eval .src/main/resources/cranlist/QRelsCorrectedforTRECeval output/results_Standard_Analyzer_BooleanSimilarity.txt
-sudo trec_eval .src/main/resources/cranlist/QRelsCorrectedforTRECeval output/results_Standard_Analyzer_ClassicSimilarity.txt
-sudo trec_eval .src/main/resources/cranlist/QRelsCorrectedforTRECeval output/results_Standard_Analyzer_LMDirichletSimilarity.txt
+sudo trec_eval src/main/resources/cranlist/QRelsCorrectedforTRECeval output/results_Classic_Analyzer_BM25.txt
+sudo trec_eval src/main/resources/cranlist/QRelsCorrectedforTRECeval output/results_Classic_Analyzer_BooleanSimilarity.txt
+sudo trec_eval src/main/resources/cranlist/QRelsCorrectedforTRECeval output/results_Classic_Analyzer_ClassicSimilarity.txt
+sudo trec_eval src/main/resources/cranlist/QRelsCorrectedforTRECeval output/results_Classic_Analyzer_LMDirichletSimilarity.txt
+sudo trec_eval src/main/resources/cranlist/QRelsCorrectedforTRECeval output/results_English_Analyzer_BM25.txt
+sudo trec_eval src/main/resources/cranlist/QRelsCorrectedforTRECeval output/results_English_Analyzer_BooleanSimilarity.txt
+sudo trec_eval src/main/resources/cranlist/QRelsCorrectedforTRECeval output/results_English_Analyzer_ClassicSimilarity.txt
+sudo trec_eval src/main/resources/cranlist/QRelsCorrectedforTRECeval output/results_English_Analyzer_LMDirichletSimilarity.txt
+sudo trec_eval src/main/resources/cranlist/QRelsCorrectedforTRECeval output/results_Standard_Analyzer_BM25.txt
+sudo trec_eval src/main/resources/cranlist/QRelsCorrectedforTRECeval output/results_Standard_Analyzer_BooleanSimilarity.txt
+sudo trec_eval src/main/resources/cranlist/QRelsCorrectedforTRECeval output/results_Standard_Analyzer_ClassicSimilarity.txt
+sudo trec_eval src/main/resources/cranlist/QRelsCorrectedforTRECeval output/results_Standard_Analyzer_LMDirichletSimilarity.txt
